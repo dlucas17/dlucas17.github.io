@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #84D1D6; /*#fec503;*/
 }
 
 .text-primary {
@@ -102,6 +102,40 @@ img::-moz-selection {
   background: transparent;
 }
 
+#hide {
+  visibility: hidden;
+}
+
+#navText {
+  visibility: hidden;
+}
+
+#landingLogo {
+  background-image: url("../img/peakLogo.png");
+  background-repeat: no-repeat;
+  height: auto;
+  width: 25%;
+  background-size:contain;
+  object-fit: contain;
+  background-position: center center;
+}
+
+#navLogo {
+  background-image: url("../img/navLogo.png");
+  background-repeat: no-repeat;
+  height: auto; 
+  width: 20%;
+  background-size:contain;
+  object-fit: contain;
+  background-position: center;
+  /*max-width: 300px; 
+  max-height: 300px;*/
+  /*object-fit: contain;*/
+}
+
+#navLogo.img {
+}
+
 #mainNav {
   background-color: #212529;
 }
@@ -123,7 +157,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #84D1D6;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -172,7 +206,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/peakLanding.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -185,6 +219,8 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  /*visibility: hidden;*/
+  position: center;
 }
 
 header.masthead .intro-text .intro-lead-in {
