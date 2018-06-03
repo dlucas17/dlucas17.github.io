@@ -111,7 +111,7 @@ img::-moz-selection {
 }
 
 #landingLogo {
-  background-image: url("../img/peakLogo.png");
+  background-image: url("../img/peakLogoTransparent.png");
   background-repeat: no-repeat;
   height: auto;
   width: 25%;
