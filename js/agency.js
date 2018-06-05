@@ -89,4 +89,11 @@ button.onclick = function() {
     }
 };  
   
+//try2
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("p").toggle();
+    });
+});
+  
 })(jQuery); // End of use strict
