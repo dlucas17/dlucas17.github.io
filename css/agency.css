@@ -20,6 +20,14 @@ a:hover {
   color: #84D1D6; /*#fec503;*/
 }
 
+b {
+  color: #000000;
+}
+
+b:hover {
+  color: #84D1D6; /*#fec503;*/
+}
+
 .text-primary {
   color: #84D1D6 !important; /*#84D1D6*/
 }
