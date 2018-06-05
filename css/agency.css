@@ -71,6 +71,8 @@ section h3.section-subheading {
 
 .btn-invisible {
   background-color: transparent;
+  font-size: 24px;
+  color: 000000;
 }
 
 .btn-test {
