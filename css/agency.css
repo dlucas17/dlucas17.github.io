@@ -70,8 +70,10 @@ section h3.section-subheading {
 }
 
 .btn-invisible {
-  background-color: 000000
-  opacity: 0.5
+  background-color: transparent;
+  height: 160px;
+  width: 140px;
+  border: none;
 }
 
 .btn-test {
