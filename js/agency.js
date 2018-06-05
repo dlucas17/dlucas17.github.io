@@ -96,4 +96,7 @@ button.onclick = function() {
     });
 });
   
+//try3
+  $('.collapse').collapse()
+  
 })(jQuery); // End of use strict
