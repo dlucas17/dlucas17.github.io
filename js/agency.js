@@ -80,6 +80,6 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 // show/hide div
 $("#button").click(function() {
   $("#item").toggle();
-});
+}); //need to figure out what goes in here to make it functional
   
 })(jQuery); // End of use strict
