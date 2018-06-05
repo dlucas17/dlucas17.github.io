@@ -82,4 +82,11 @@ $("#button").click(function() {
   $("#item").toggle();
 }); //need to figure out what goes in here to make it functional
   
+//slick carousel
+  $(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
+  
 })(jQuery); // End of use strict
