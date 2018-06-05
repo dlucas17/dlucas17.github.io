@@ -78,9 +78,8 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
   
   
 // show/hide div
-$('mountainGrow').click(function(){
-    $('mountain1Div').toggle();
+$("#button").click(function() {
+  $("#item").toggle();
 });
-  
   
 })(jQuery); // End of use strict
