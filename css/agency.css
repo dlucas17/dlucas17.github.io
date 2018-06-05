@@ -21,11 +21,11 @@ a:hover {
 }
 
 b {
-  color: #84D1D6;
+  color: #424E6B;
 }
 
 b:hover {
-  color: #84D1D6; /*#fec503;*/
+  color: #009495; /*#fec503;*/
 }
 
 .text-primary {
@@ -79,7 +79,7 @@ section h3.section-subheading {
 
 .btn-invisible {
   background-color: transparent;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 14px;
 }
