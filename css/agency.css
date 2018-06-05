@@ -21,7 +21,9 @@ a:hover {
 }
 
 b {
-  color: #000000;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #84D1D6;
+  font-style: italic;
 }
 
 b:hover {
