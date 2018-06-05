@@ -82,6 +82,11 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 14px;
+  color: #424E6B;
+}
+
+.btn-invisible:active, .btn-invisible:hover {
+  color: #009495;;
 }
 
 .btn-primary {
