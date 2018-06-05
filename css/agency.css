@@ -74,6 +74,13 @@ section h3.section-subheading {
   opacity: 0.5
 }
 
+.btn-test {
+height: 37px; 
+width: 37px;   
+background-image:url(img/mountain1Icon.png);
+background-repeat:no-repeat;
+}
+
 .btn-primary {
   background-color: #84D1D6;
   border-color: #84D1D6;
