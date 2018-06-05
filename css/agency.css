@@ -69,6 +69,11 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 
+.btn-invisible {
+  background-color: 000000
+  opacity: 0.5
+}
+
 .btn-primary {
   background-color: #84D1D6;
   border-color: #84D1D6;
