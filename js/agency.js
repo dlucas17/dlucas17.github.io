@@ -77,7 +77,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 });
   
   
-/* show/hide div */ 
+// show/hide div
   function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -86,15 +86,5 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
         x.style.display = "none";
     }
 }
-  
-/* show/hide divs */  
-  function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-  }
   
 })(jQuery); // End of use strict
