@@ -77,43 +77,4 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 });
   
   
-// show/hide div
-$("#button").click(function() {
-  $("#item").toggle();
-}); //need to figure out what goes in here to make it functional
-  
-//slick carousel
-  $(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
-  });
-});
-  
-//slick carousel pt2  
-$('.center').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-  
 })(jQuery); // End of use strict
