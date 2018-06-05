@@ -75,10 +75,11 @@ section h3.section-subheading {
 }
 
 .btn-test {
-height: 37px; 
-width: 37px;   
-background-image:url(img/mountain1Icon.png);
-background-repeat:no-repeat;
+  height: 100px; 
+  width: 100px;   
+  background-image:transparent url(img/mountain1Icon.png);
+  background-repeat:no-repeat;
+  border: 0;
 }
 
 .btn-primary {
