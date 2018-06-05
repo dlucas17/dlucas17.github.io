@@ -78,10 +78,9 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
   
   
 // show/hide div
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideDown("slow");
-    });
+$('mountainGrow').click(function(){
+    $('mountain1Div').toggle();
 });
+  
   
 })(jQuery); // End of use strict
