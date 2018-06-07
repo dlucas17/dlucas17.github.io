@@ -829,10 +829,13 @@ Attribution required
 
 /*showcase divs*/
 .showcase .showcase-text {
-  padding: 3rem;
+  padding: 30px;
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 30px;
+  width: 225px;
+  height: auto;
+  border: 7px solid #fff;
   background-size: contain;
 }
