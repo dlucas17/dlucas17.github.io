@@ -61,7 +61,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
     var idx = $e.index();
     var itemsPerSlide = 3;
     var totalItems = $('.carousel-item').length;
-    
+/*  
     if (idx >= totalItems-(itemsPerSlide-1)) {
         var it = itemsPerSlide - (totalItems - idx);
         for (var i=0; i<it; i++) {
@@ -74,6 +74,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
 //             }
         }
     }
+*/
 });
   
 var button = document.getElementById('button'); // Assumes element with id='button'
