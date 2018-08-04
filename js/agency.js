@@ -71,7 +71,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
             //}
 //             else {
 //                 $('.carousel-item').eq(0).appendTo('.carousel-inner');
-            }
+//             }
         }
     }
 });
